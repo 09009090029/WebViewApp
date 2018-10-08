@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.webview" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>WebViewApp</name>
+    <description>
+        A blank PhoneGap app.
+    </description>
+    <author email="support@phonegap.com" href="http://phonegap.com">
+        PhoneGap Team
+    </author>
+    <plugin name="cordova-plugin-inappbrowser" source="npm" spec="3.0.0" />
+    <plugin name="cordova-plugin-whitelist" />
+    <platform name="android">
+        <feature name="InAppBrowser">
+            <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+        </feature>
+    </platform>
+    <platform name="ios">
+        <feature name="InAppBrowser">
+            <param name="ios-package" value="CDVInAppBrowser" />
+        </feature>
+    </platform>
+    <content src="index.html" />
+    <access origin="*" />
+    <engine name="android" spec="~7.0.0" />
+</widget>

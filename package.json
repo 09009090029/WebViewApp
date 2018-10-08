@@ -1,0 +1,13 @@
+{
+  "name": "com.phonegap.webview",
+  "version": "1.0.0",
+  "displayName": "WebViewApp",
+  "cordova": {
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {
+    "cordova-android": "~7.0.0"
+  }
+}
